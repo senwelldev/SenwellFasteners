@@ -1,0 +1,19 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/contactPage%2Fform-image.webp?alt=media&token=f63a5433-eb74-4d13-803b-235f44e938a7");
+    background-size: cover;
+    background-position: center;
+   
+    }
+  .react-tel-input .form-control{
+        width: 100% !important;
+    }
+
+    @media screen and (max-width:1107px) {
+        .field-wrapper{
+            flex-direction: column;
+            width: 100% !important;
+        }
+       
+    
+    }

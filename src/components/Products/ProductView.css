@@ -1,0 +1,10 @@
+.product-name{
+    font-family: var(--font);
+    font-size: 3rem;
+}
+
+.product-image-view{
+    width: 100%;
+    height: 100%;
+}
+

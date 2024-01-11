@@ -1,0 +1,121 @@
+.logo {
+  height: 10%;
+  width: 160px;
+}
+.email,
+.contact {
+  font-size: 0.9rem;
+  margin: 0;
+}
+.small-nav-items {
+  margin-left: 2rem;
+}
+.view {
+  margin: 0;
+  padding: 0;
+}
+#carouselExampleDark {
+  height: 85vh;
+}
+#carouselExampleIndicators img {
+  height: 85vh;
+  object-fit: cover;
+}
+
+#stickyNav.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  margin-top: -1px;
+  background-color: white;
+  z-index: 10 !important;
+  transition: background-color 0.5s linear;
+}
+
+#first-nav.hidden {
+  visibility: hidden !important;
+  transition: background-color 1.5s ease-in;
+}
+
+#stickyNav .navbar-nav {
+  z-index: 100 !important;
+}
+
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.navbar-nav {
+  font-size: 1.2em;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  transition: background-size 0.3s ease-out;
+  white-space: nowrap;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #0674c1;
+  transition: width 0.3s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+
+.navbar-nav {
+  font-size: 1.2em;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  transition: color 0.3s ease-out;
+  white-space: nowrap;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0674c1;
+  transition: width 0.3s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-item.active .nav-link::before {
+  width: 100%;
+}
+
+@media screen and (max-width: 440px) {
+  .small-nav-items {
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .small-nav-items span {
+    display: none;
+  }
+  .small-nav-items p {
+    margin: 0 !important;
+    padding: 0;
+  }
+}

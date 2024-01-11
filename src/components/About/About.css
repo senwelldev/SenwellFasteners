@@ -1,0 +1,123 @@
+.about-us-heading {
+  font-family: var(--font);
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+.about-section-img {
+  height: 50vh;
+  width: auto;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/aboutPage%2Fabout.webp?alt=media&token=57934978-9a8f-4c12-b796-dd151170b715");
+  background-attachment: fixed;
+}
+.about-section-img img {
+  transition: all ease-in 1s;
+
+  width: 100%;
+  height: 100%;
+}
+
+.intro-section {
+  display: flex;
+
+  margin: 5rem;
+}
+.intro-txt-container {
+  width: 50%;
+  text-align: start;
+  padding: 2rem;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.about-h1 {
+  font-family: var(--font);
+}
+.about-p {
+  word-break: keep-all;
+  font-size: larger;
+}
+
+.offering-section{
+  max-width: 90vw !important;
+}
+.intro-divider {
+  display: inline-flex;
+  border-top: 5px solid #0084d6;
+  width: 15%;
+}
+
+.intro-img {
+  width: 50%;
+}
+.intro-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.first-card {
+  margin-top: 110px !important;
+}
+.second-card {
+  margin-top: 170px !important;
+}
+.third-card {
+  margin-top: 120px !important;
+}
+.fourth-card {
+  margin-top: 160px !important;
+}
+
+.offering-section h1 {
+  font-family: var(--font);
+}
+.feature-card {
+  background-repeat: no-repeat !important;
+
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/aboutPage%2Fwave.webp?alt=media&token=378e3d15-6c76-447c-8536-0f358315e1c0") !important;
+  background-size: 100%;
+  width: 100%;
+  
+
+  
+}
+
+@media screen and (max-width: 760px) {
+  .intro-section {
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+  }
+  .intro-txt-container {
+    width: 100%;
+  }
+  .intro-img {
+    width: 100%;
+  }
+  .intro-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 10px 10px !important;
+  }
+
+  .first-card,
+  .third-card,
+  .second-card,
+  .fourth-card {
+    margin: 0;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about-us-heading {
+    font-size: var(--h1);
+  }
+}
+@media screen and (max-width: 991px) {
+  .first-card , .second-card,.third-card,.fourth-card{
+    margin-top: 0% !important;
+  }
+}

@@ -1,0 +1,39 @@
+.product-intro-bg{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/ProductPage%2Ffasteners.webp?alt=media&token=a1d3a2a5-dbc6-4e0c-adc3-a5e4eb50dd78");
+    background-size: cover;
+    color: white;
+    height: 50vh;
+   
+    background-attachment: fixed;
+    background-position: left bottom;
+    
+
+}
+.product-txt-wrapper {
+    width: 70%;
+    height: 50%;
+ 
+    
+    
+
+}
+
+.product-txt-wrapper .txt , .products-glance h1{
+    font-family: var(--font ) ;
+    font-size: var(--h1);
+
+
+}
+
+
+@media screen and (max-width:400px) {
+
+    .product-txt-wrapper .txt {
+
+        font-size: 2rem;
+    
+    
+    }
+
+    
+}

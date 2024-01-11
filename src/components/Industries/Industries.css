@@ -1,0 +1,47 @@
+.industry-bg {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/IndustryPage%2Fbg.webp?alt=media&token=f59d952f-e6bb-4611-bfa4-8818da3fd729");
+  color: white;
+  height: 50vh;
+  /* width: 100vw; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.bg-img,
+.bg-img1,
+.bg-img2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  background-position: center;
+}
+.bg-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/IndustryPage%2Felectrical.webp?alt=media&token=51514bf0-aac3-4d2b-84c3-4a54fa0fa42d");
+}
+.bg-img1 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/IndustryPage%2FConstruction.webp?alt=media&token=12392306-72f2-49c2-93f6-fc0d39481b21");
+}
+.bg-img2 {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/IndustryPage%2Foil-gas.webp?alt=media&token=91a4c4c6-1d1a-4712-95c5-6b7c6606c144");
+}
+.bg-img h1 {
+  font-weight: bold;
+  font-family: var(--font);
+}
+
+.bg-img button {
+  border-radius: 10px;
+  margin: 1rem;
+}
+.bg-img ul {
+  margin: 5rem;
+}
+.list li,
+.list li {
+  font-size: 1.3rem;
+  margin: 0.9rem 0 0.9rem 0;
+
+  font-weight: 300;
+}
+

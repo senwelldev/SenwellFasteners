@@ -1,0 +1,85 @@
+/* OrderForm.css */
+
+.order-form-popup {
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 8px;
+  z-index: 1000 !important;
+  padding: 1.5rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.inp, .react-tel-input .form-control {
+  border-radius: 8px !important;
+  background-color: #f0f0f0cc;
+  border: 1px solid #ddddddb6;
+  
+ 
+}
+
+
+.order-form-pop {
+  z-index: 100 !important;
+}
+
+.order-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.order-form {
+  width: 100%;
+}
+
+.order-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.order-form label {
+  font-weight: bold;
+}
+
+.order-form .btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0070c0;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.order-form .btn:hover {
+  background-color: #00569b;
+}
+
+.form-txt {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.note {
+  color: #ff0000;
+  text-align: justify;
+}
+
+.size {
+  height: 30px !important;
+}
+
+@media screen and (max-width: 768px) {
+  .order-form-popup {
+    top: 50%;
+    width: 80%;
+  }
+}

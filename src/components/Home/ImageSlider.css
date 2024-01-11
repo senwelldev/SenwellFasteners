@@ -1,0 +1,123 @@
+/* css for slider  */
+
+.slider {
+  width: 95vw !important;
+  
+   
+}
+.slider-img-container {
+  border-radius: 10px;
+  
+  background: #e0e0e0;
+  box-shadow: 20px 10px 60px #bebebe, -20px -10px 60px #ffffff;
+}
+
+.slider {
+  transform: scale(1);
+
+  animation: fadeInUp 1.7s ease-in forwards, scaleUp 1.7s ease-in forwards;
+}
+.slider-images{
+  width: 100vw;
+  height: 100% !important;
+  /* min-height: 80vh; */
+  object-fit: cover;
+  background-repeat: no-repeat;
+  
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9899);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.slider-image-txt-container{
+  width: 34%;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  white-space: wrap;
+}
+.slider-image-text{
+  color: white;
+}
+
+.main-title{
+  font-family: var(--font);
+  font-size: 5vw;
+  
+}
+.sub-title{
+  
+  white-space: wrap;
+  width: 80%;
+  font-size: 1.5vw;
+}
+
+/* loader  */
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #0070c0;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .slider {
+    height: auto;
+  }
+  .slider-img-container {
+    
+    width: 100%;
+    height: 100%;
+   
+  }
+  .slider-images{
+    width: 100vw;
+    height: 30vh !important;
+    
+    
+  }
+  .sub-title{
+  
+    white-space: wrap;
+    width: 60%;
+    font-size: 1.5vw;
+  }
+}
+

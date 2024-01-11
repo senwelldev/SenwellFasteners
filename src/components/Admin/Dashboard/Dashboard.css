@@ -1,0 +1,174 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+    margin-top: 77px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  
+  .applications-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .applications-table th,
+  .applications-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .applications-table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .applications-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .dashboard-h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+  
+  .logout-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 6%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+  }
+  
+  .refresh-button {
+    background-color: none;
+    border: none;
+    margin-left: 5px;
+    width: 6%;
+  }
+  .contact-applicants-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .contact-applicants-table th,
+  .contact-applicants-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .contact-applicants-table th {
+    background-color: #35bdd4;
+    color: #fff;
+  }
+  
+  .contact-applicants-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .toggle-button {
+    border: none;
+    margin-left: 5px;
+  }
+  @media screen and (max-width: 480px) {
+    .refresh-button {
+      width: 40px;
+    }
+    .logout-button {
+      width: 80px;
+    }
+    .dashboard-h2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: x-large;
+      margin: 20px 0 20px 0;
+    }
+  }
+  
+  /* Dashboard.css */
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+  
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .export-button {
+    margin-left: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+  }
+  
+  /* Styling for Shortlisted Candidates */
+  .shortlisted {
+    background-color:  #ccffcc !important;
+  }
+  
+  /* Styling for Rejected Candidates */
+  .rejected {
+    text-decoration: line-through; 
+    color: #db1010; 
+  }
+  
+  .filter {
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .filter-section {
+    padding: 5px;
+      border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  
+  .gender {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .gender-section {
+    padding: 5px;
+      border-radius: 10px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }

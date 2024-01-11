@@ -1,0 +1,31 @@
+.breadcrumb-area {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.445)),url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/aboutPage%2Fcompany.png?alt=media&token=d5f9a486-1b1c-4f17-bf8a-4b11f527ee6d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 123px;
+    position: relative;
+    z-index: 1;
+  }
+  .breadcrumb-area h1 {
+    color: #ffffff;
+    font-size: 4rem !important;
+    font-weight: 600;
+    font-family: var(--font);
+    line-height: 36px;
+    text-transform: uppercase;
+    text-shadow: rgba(8, 8, 8, 0.795) 1px 0 10px;
+  }
+  .description-area {
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+   
+  }
+  .description-row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .wrapper{
+    width: 80vw !important;
+  }

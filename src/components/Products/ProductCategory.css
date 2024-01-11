@@ -1,0 +1,22 @@
+.product-category-image{
+    height: 40vh;
+    color: white;
+
+}
+/* .category-product-wrapper{
+    width: 100vw;
+} */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in.loading {
+    opacity: 1;
+  }
+  
+  
+    .details{
+      text-align: justify;
+    }

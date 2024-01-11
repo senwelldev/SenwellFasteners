@@ -1,0 +1,28 @@
+.card-image{
+    width: 90px;
+    height: 90px;
+}
+.card-container{
+    /* background-color: #f5f7f9 !important; */
+    height: 100% !important;
+    width: 100%;
+   
+}
+.card-title{
+    font-family: var(--font);
+    font-size: 2rem;
+}
+.card-p{
+    text-align: justify !important;
+}
+
+@media screen and (max-width:920px) {
+    
+    .card-body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+}

@@ -1,0 +1,81 @@
+/* css for company heading  */
+.company-heading h1 {
+  font-family: var(--font);
+  font-size: 4rem;
+}
+.company-heading p{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.company-heading h3{
+  
+  font-family: var(--font);
+  font-size: var(--h1);
+}
+
+.product-overview {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+}
+.product-section{
+  margin: 5rem 0 5rem 0;
+}
+
+/* css for parallax effect  */
+.product-overview-section-2 {
+  height: 60vh;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/HomePage%2Fourgoal.webp?alt=media&token=8c4503c6-f111-4cac-ad97-bc465484f9f3");
+ 
+  background-attachment: fixed;
+
+  background-position: center;
+  background-size: 100% 180%;
+  background-repeat: no-repeat;
+  
+  width: 100vw;
+  background-blend-mode: color-burn;
+
+ 
+}
+
+.products-variety {
+ 
+  color: white;
+
+  
+}
+.products-variety h1 {
+  font-size: 4.5rem;
+
+  font-family: var(--font);
+}
+.products-variety p {
+  font-size: large;
+  font-weight: 400;
+
+  
+}
+
+.products-variety img:nth-child(1) {
+  width: 30%;
+  height: auto;
+}
+.products-variety img:nth-child(2) {
+  width: 30%;
+  height: auto;
+  margin-top: 6rem;
+}
+.products-variety img:nth-child(3) {
+  width: 30%;
+  height: auto;
+}
+
+@media screen and (max-width:760px) {
+  .product-overview-section-2{
+    height: 40vh;
+    background-attachment: scroll !important;
+   
+  }
+}

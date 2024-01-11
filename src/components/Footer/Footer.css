@@ -1,0 +1,74 @@
+.bg-color {
+  background-color: #00337d !important;
+}
+
+.footer {
+  padding: 30px 0;
+  color: white;
+}
+
+.company-logo img {
+  max-width: 100%;
+  width: 80%;
+  cursor: pointer;
+  background-color: white;
+}
+
+.social-icons {
+  margin-top: 15px;
+  font-size: 30px;
+  padding-bottom: 2rem;
+  color: white;
+}
+ 
+
+.company-info {
+  font-weight: bold;
+  text-align: left;
+  cursor: pointer;
+}
+
+.company-info ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.company-info li {
+  margin-right: 10px;
+}
+
+.company-info ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+.product-categories-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-categories-list li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.contact-info h3,
+.company-info h3,
+.product-categories-list h3 {
+  font-family: var(--font);
+}
+
+.news h2 {
+  font-family: var(--font);
+}
+.hover li:hover , .link:hover{
+   color: #0070c0;
+   transform: translateY(8%);
+}
+
+@media screen and (max-width:770px) {
+  .company-logo img{
+    width: 50%;
+  }
+ 
+}

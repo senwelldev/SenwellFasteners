@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@600&family=Arimo:wght@600&family=Lato:wght@700&family=Poppins:wght@300&family=Raleway:ital,wght@0,300;0,400;1,300&family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+    --main-font-size: 16px;  
+    --h1:3rem;
+    --main-bg-color: #ffffff ;
+    --overview-bg-color : #c8b6ff!important;
+    --font:'Alumni Sans', sans-serif;
+    --para:'Roboto', sans-serif;
+  }
+
+
+  body {
+    font-size: var(--main-font-size);  /* Use the font size variable */
+    background-color: var(--main-bg-color); 
+     
+  }
+html {
+  scroll-behavior: smooth;
+}
