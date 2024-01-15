@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "build",
     "site": "sn-fasteners",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
   }
