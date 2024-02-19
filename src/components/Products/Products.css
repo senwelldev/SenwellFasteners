@@ -1,39 +1,39 @@
 .product-intro-bg{
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/ProductPage%2Ffasteners.webp?alt=media&token=a1d3a2a5-dbc6-4e0c-adc3-a5e4eb50dd78");
+    /* background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/ProductPage%2Ffasteners.webp?alt=media&token=a1d3a2a5-dbc6-4e0c-adc3-a5e4eb50dd78"); */
+    background-image: url("../../Images/Products/teners.png");
     background-size: cover;
     color: white;
-    height: 50vh;
-   
+    height: 50vh;   
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: left bottom;
-    
-
 }
+
 .product-txt-wrapper {
     width: 70%;
     height: 50%;
- 
-    
-    
-
 }
 
 .product-txt-wrapper .txt , .products-glance h1{
     font-family: var(--font ) ;
     font-size: var(--h1);
-
-
 }
 
 
-@media screen and (max-width:400px) {
-
+@media screen and (max-width: 768px) {
+    .product-intro-bg{
+        background-position: 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .product-txt-wrapper .txt {
 
-        font-size: 2rem;
+        font-size: 1.8rem;
     
-    
-    }
 
+    }
+    .products-glance h1{
+        font-size: 1.5rem;
+    }
     
 }

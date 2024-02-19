@@ -82,11 +82,10 @@ function App() {
             element={<ProductView />}
           />
           <Route path="/newsForm" element={<NewsForm />} />
-          <Route path="*" element={<ErrorPage />} />
           <Route path="/blogs" element={<Blog/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/blogs/blog/:blogId" element={<Blog1/>}/>
-         
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

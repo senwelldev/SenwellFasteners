@@ -5,7 +5,7 @@ import "../Home/TargetIndustryCard.css";
 const TargetIndustryCard = ({ imageUrl, description, title }) => {
   return (
     <Fade duration={1000} delay={200} distance="20px" bottom>
-      <div className="card mb-3 mx-auto mt-5 rounded-4 shadow industry-card">
+      <div className="card mb-3 mx-auto mt-5 rounded-4  industry-card">
         <div className="row g-0 industry-card-body">
           <div className="col-md-8 text-body">
             <div className="card-body-fluid ">

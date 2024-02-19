@@ -68,7 +68,7 @@ const ProductView = () => {
                       <img
                         src={item.image}
                         alt=""
-                        className="rounded-2 shadow product-image-view img-fluid "
+                        className="rounded-2 product-image-view img-fluid "
                         loading="lazy"
                       ></img>
                     </div>

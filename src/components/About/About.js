@@ -69,7 +69,7 @@ const About = () => {
             </div>
 
             <div className="intro-section">
-              <div className="intro-txt-container shadow rounded-start-3">
+              <div className="intro-txt-container  rounded-start-3">
                 <Fade left>
                   <div className="intro-divider mb-5"></div>
                 </Fade>

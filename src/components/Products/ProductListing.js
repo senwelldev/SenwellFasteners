@@ -107,9 +107,9 @@ const ProductListing = () => {
                         hoveredIndex === index ? "activehover" : ""
                       }`}
                     >
-                      <div className="row ">
-                        <div className="col d-flex align-items-center  flex-column types-list-container ">
-                          <ul className="types-list">
+                      <div className="row " >
+                        <div className="col d-flex align-items-center flex-column types-list-container ">
+                          <ul className="types-list" >
                             {category.types?.map((item, typeIndex) => (
                               <li key={typeIndex} className="text-start">
                                 <Link

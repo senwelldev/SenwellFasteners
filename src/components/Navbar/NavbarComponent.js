@@ -46,19 +46,17 @@ const NavbarComponent = () => {
         <div className="row">
           <div className="col-md-12 view">
             <nav
-              className="navbar "
-              style={{ backgroundColor: "#007EA7" }}
+              className="navbar"
+              style={{ backgroundColor: "#698d9e"}}
               id="first-nav"
             >
-              <div className="small-nav-items text-white d-flex ">
-                <p className="email px-1">Email: <a href="mailto:info@senwellsys.com" className="text-decoration-none text-white">info@senwellsys.com</a></p>
-                <span className="text-center px-1">|</span>
-                <p className="contact px-1">Phone Number: <a href="tel:+91-9175676403" className="text-decoration-none text-white">+91-9175676403</a></p>
+              <div className="small-nav-items text-white d-flex align-items-center">
+                <p className="email px-1">Email: <a href="mailto:info@senwellsys.com" className="text-decoration-none text-white">info@senwellsys.com</a> | Phone Number: <a href="tel:+91-9175676403" className="text-decoration-none text-white">+91-9175676403</a></p>
               </div>
             </nav>
           </div>
 
-          <nav className={`navbar navbar-expand-lg pt-3 pb-3`} id="stickyNav">
+          <nav className={`navbar navbar-expand-lg`} id="stickyNav">
             <div className="container-fluid">
               <Link className="navbar-brand" to={"/"}>
                 <img src="https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/Fasteners%20logo.webp?alt=media&token=7c96b907-baba-428a-a93f-8cedf81254a6" className="logo mx-2" alt="..."  loading="lazy"/>

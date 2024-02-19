@@ -1,9 +1,11 @@
 import React from "react";
 import "./Products.css";
 import ProductListing from "./ProductListing";
+
 const Products = () => {
   return (
     <div className="products-section-wrapper ">
+
       <div className="container-fluid product-intro-bg d-flex align-items-center ">
         <div className="row ">
           <div className="col product-txt-wrapper  ">

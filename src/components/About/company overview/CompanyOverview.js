@@ -29,7 +29,8 @@ const CompanyOverview = () => {
                 className="wrapper"
               >
                 <Card.Body>
-                  <Card.Title>Dedicated to Excellence: Senwell Fasteners - Your Premier Partner for High-Quality Ferrous and Non-Ferrous Products</Card.Title>
+                  <Card.Title className="companyOverViewCard-title">
+                    Dedicated to Excellence: Senwell Fasteners - Your Premier Partner for High-Quality Ferrous and Non-Ferrous Products</Card.Title>
                   <Card.Text>
                     Senwell Fasteners is dedicated to upholding high-quality
                     standards, positioning itself as a prominent entity
@@ -208,7 +209,7 @@ const CompanyOverview = () => {
                                   <li>Colombia</li>
                                   <li>Comoros</li>
                                   <li>Congo, Democratic Republic of the</li>
-                                  <li>Congo, Republic of the</li>
+                                  <li>Congo, Republic of the Congo</li>
                                   <li>Costa Rica</li>
                                   <li>Côte d'Ivoire</li>
                                   <li>Croatia</li>
@@ -290,7 +291,7 @@ const CompanyOverview = () => {
                                   <li>Mauritania</li>
                                   <li>Mauritius</li>
                                   <li>Mexico</li>
-                                  <li>Micronesia, Federated States of</li>
+                                  <li>Micronesia, Federated States of Micronesia</li>
                                   <li>Moldova</li>
                                   <li>Monaco</li>
                                   <li>Mongolia</li>

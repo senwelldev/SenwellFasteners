@@ -39,8 +39,8 @@ const Contact = () => {
         </div>
       </div>
       <div className="container card-section">
-        <div className="row mt-5 mb-5">
-          <h1 className="text-center mt-3 mb-5 ">Get in touch with us </h1>
+        <div className="row md-mt-5 md-mb-5">
+          <h1 className="text-center mt-3 md-mb-5 mb-3 ">Get in touch with us </h1>
           {cards &&
             cards.map((item, index) => {
               return (
@@ -64,8 +64,8 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="container-fluid w-100 ">
-        <div className="row">
+      <div className="container-fluid w-100">
+        <div className="row ">
           <div className="col-md-12">
             <Form />
           </div>

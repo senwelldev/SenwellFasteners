@@ -80,7 +80,7 @@ const Blogs = () => {
               <div className="card-body">
                 <p >{item.date}</p>
                 <h5
-                  className="card-title "
+                  className="blogCard-title "
                   onClick={() => {
                     navigate(`/blogs/blog/${item.blogId}`);
                   }}

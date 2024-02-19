@@ -29,3 +29,13 @@
   .wrapper{
     width: 80vw !important;
   }
+
+  @media screen and (max-width: 768px) {
+    .breadcrumb-area h1{
+      font-size: 2rem !important;
+    }
+
+    .companyOverViewCard-title{
+      font-size: 20px;
+    }
+  }

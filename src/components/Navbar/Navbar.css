@@ -1,6 +1,7 @@
 .logo {
-  height: 10%;
-  width: 160px;
+  height: 15%;
+  width: 200px;
+  /* border: 1px solid red; */
 }
 .email,
 .contact {
@@ -28,7 +29,7 @@
   margin-top: -1px;
   background-color: white;
   z-index: 10 !important;
-  transition: background-color 0.5s linear;
+  /* transition: background-color 0.5s linear; */
 }
 
 #first-nav.hidden {
@@ -118,4 +119,10 @@
     margin: 0 !important;
     padding: 0;
   }
+}
+@media screen and (max-width: 300px){
+  .logo {
+    width: 170px;
+  }
+  
 }

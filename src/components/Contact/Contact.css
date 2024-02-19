@@ -8,6 +8,20 @@
     background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/contactPage%2Fcontact.webp?alt=media&token=325b425e-fea0-4058-9d1b-6ecf0b2229d8");
     height: 50vh;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px){
+    .contact-bg{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .contact-h1 , .card-section h1{
+        font-family: var(--font);
+        font-size: 2rem;
+    }
 }

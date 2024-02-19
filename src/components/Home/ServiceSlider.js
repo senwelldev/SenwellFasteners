@@ -23,7 +23,11 @@ const ServiceSlider = () => {
         style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
+          display:"flex",
+          alignItems: "center",
+          justifyContent:'center',
         }}
+        
         speed={600}
         parallax={true}
         autoplay={{ delay: 1000, disableOnInteraction: false }} 

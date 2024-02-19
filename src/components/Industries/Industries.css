@@ -1,3 +1,7 @@
+.IndustryBody{
+  width: 100%;
+}
+
 .industry-bg {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/senwell-fasteners/o/IndustryPage%2Fbg.webp?alt=media&token=f59d952f-e6bb-4611-bfa4-8818da3fd729");
   color: white;
@@ -39,9 +43,14 @@
 }
 .list li,
 .list li {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: 0.9rem 0 0.9rem 0;
 
   font-weight: 300;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .industriesCardHeading h2{
+    font-size: 1.5rem !important;
+  }
+}

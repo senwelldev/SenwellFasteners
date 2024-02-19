@@ -1,5 +1,8 @@
 .bg-color {
-  background-color: #00337d !important;
+  /* background-color: #00337d !important; */
+  background: var(--color-secondary);
+
+  /* background: #F3F6FF; */
 }
 
 .footer {
@@ -19,8 +22,22 @@
   font-size: 30px;
   padding-bottom: 2rem;
   color: white;
+  display: flex;
+  align-items:center;
 }
  
+.social-icons a{
+  margin: 3px;
+  color: white;
+}
+
+.soi{
+  font-size: 30px;
+  margin: 3px;
+}
+.social-icons span:hover a{
+  color: black !important;
+}
 
 .company-info {
   font-weight: bold;
@@ -58,12 +75,38 @@
   font-family: var(--font);
 }
 
+.news{
+  /* background: var(--color-primary); */
+  border: 1px solid white;
+  border-radius: 7px;
+  /* padding: 5px; */
+}
+
 .news h2 {
   font-family: var(--font);
 }
+
+.news button{
+  border: none !important;
+}
+
+.hover li{
+  width: 100px;
+}
+
 .hover li:hover , .link:hover{
-   color: #0070c0;
+   /* color: #0070c0; */
+   color: var(--color-primary);
    transform: translateY(8%);
+}
+
+.footerMail{
+  color: white;
+}
+
+.footerMail:hover{
+  color: var(--color-primary);
+  /* color: black; */
 }
 
 @media screen and (max-width:770px) {
@@ -71,4 +114,30 @@
     width: 50%;
   }
  
+}
+
+@media (min-width:770px) and (max-width:991px) {
+  .social-icons {
+    margin-top: 15px;
+    /* font-size: 30px; */
+    /* padding-bottom: 2rem; */
+    color: white;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+  }
+   
+  .social-icons a{
+    margin: 0px;
+    color: white;
+  }  
+  
+  .soi{
+    font-size: 28px !important;
+    margin: 4px;
+  }
+
+  .news h2{
+    font-size: 25px;
+  }
 }

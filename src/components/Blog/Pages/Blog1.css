@@ -13,7 +13,7 @@
     height: 50vh;
    
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
    
@@ -56,11 +56,12 @@
     
    
     .blogHeading h1{
-        font-size: 25px !important;
-        text-align: start;
+        font-size: 20px !important;
+        text-align: center;
     }
     .blogBody2 .blogHeading,.blogBody3 .blogHeading{
         background-position: center;
+        background-size: contain !important;
     }
 }
 

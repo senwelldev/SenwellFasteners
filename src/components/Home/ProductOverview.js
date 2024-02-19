@@ -77,11 +77,14 @@ const ProductOverview = () => {
               {productImage.map((item, index) => {
                 return (
                     <Zoom>
-                  <div onClick={() => navigate(`/productCategory/${item.id}`)}>
+                  <div onClick={() => navigate(`/productCategory/${item.id}`)}
+                  className="productOverviewCard"
+                  >
                     <ProductCard
                       imageUrl={item.image}
                       key={index}
                       title={item.title}
+                      className="xyz"
                     />
                   </div>
                     </Zoom>
@@ -90,7 +93,7 @@ const ProductOverview = () => {
             </div>
           </div>
           {/* this is the parallax effect section  */}
-          <div className="col-md-12 product-overview-section-2 d-flex align-items-center justify-content-center flex-column">
+          <div className="col-md-12 product-overview-section-2 d-flex align-items-center justify-content-center flex-column goalDiv">
             <div className="product-overview-2   ">
               <div className="products-variety d-flex align-items-center justify-content-center flex-column ">
                 <h1 className="h1 text-center ">Our Goal</h1>

@@ -5,8 +5,14 @@
     --h1:3rem;
     --main-bg-color: #ffffff ;
     --overview-bg-color : #c8b6ff!important;
-    --font:'Alumni Sans', sans-serif;
+    /* --font:'Alumni Sans', sans-serif; */
+    --font:'Roboto', sans-serif;
     --para:'Roboto', sans-serif;
+    --color-primary: #00337D; 
+    /* --color-primary: #1A60A5;  */
+    /* --color-secondary: #0171C1; */
+    --color-secondary: #698d9e;
+    /* font-family: Roboto, sans-serif; */
   }
 
 

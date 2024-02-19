@@ -4,13 +4,13 @@ import "./Industries.css";
 
 const Industries = () => {
   return (
-    <>
+    <div className="IndustryBody">
       {/* Industry Header */}
       
         <div className="container-fluid industry-bg d-flex align-items-center">
           <div className="row">
             <div className="col-md-6 text-white">
-              <h2 className="text-uppercase fw-bold">Industries</h2>
+              <h2 className="text-uppercase fw-bold industriesCardHeading">Industries</h2>
               <p >
               Empowering Diverse Industries with Precision Solutions, We specialize in crafting high-performance solutions tailored to meet the unique demands of each sector. 
               </p>
@@ -24,9 +24,7 @@ const Industries = () => {
           <h1 className="text-center p-5 font">Sectors We Cater To</h1>
           <div className="row">
             <div className="col-md-6 bg-img text-white rounded p-4 ">
-              <h1 className="text-uppercase fw-bold">Energy</h1>
-              
-            
+              <h2 className="text-uppercase fw-bold industriesCardHeading">Energy</h2>
             </div>
             <div className="col-md-6 d-md-flex align-items-center">
               <ul className="lh-lg list">
@@ -53,7 +51,7 @@ const Industries = () => {
         <div className="container  mt-5 mb-5 industry-card-image">
           <div className="row d-flex flex-row-reverse">
             <div className="col-md-6 bg-img1 text-white rounded p-4">
-              <h1 className="text-uppercase fw-bold font">Construction</h1>
+              <h2 className="text-uppercase fw-bold font industriesCardHeading">Construction</h2>
             
              
             </div>
@@ -82,9 +80,7 @@ const Industries = () => {
         <div className="container  mt-5 mb-5 industry-card-image">
           <div className="row">
             <div className="col-md-6 bg-img2 text-white rounded p-4">
-              <h1 className="text-uppercase fw-bold font">Oil And Gas</h1>
-            
-              
+              <h2 className="text-uppercase fw-bold font industriesCardHeading">Oil And Gas</h2>
             </div>
             <div className="col-md-6 d-md-flex align-items-center">
               <ul className="lh-lg list">
@@ -105,7 +101,7 @@ const Industries = () => {
           </div>
         </div>
       </Fade>
-    </>
+    </div>
   );
 };
 

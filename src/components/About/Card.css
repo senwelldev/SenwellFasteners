@@ -6,12 +6,12 @@
     /* background-color: #f5f7f9 !important; */
     height: 100% !important;
     width: 100%;
-   
 }
 .card-title{
     font-family: var(--font);
     font-size: 2rem;
 }
+
 .card-p{
     text-align: justify !important;
 }

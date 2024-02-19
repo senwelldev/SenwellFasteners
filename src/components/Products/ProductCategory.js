@@ -80,7 +80,7 @@ const ProductCategory = () => {
                     className="col-md-4 col-sm-6 col-12 my-4 d-flex justify-content-center align-items-center"
                     key={index}
                   >
-                    <div className="card item-card shadow">
+                    <div className="card item-card">
                       <img
                         src={item.image}
                         className="card-img-top cardimage"

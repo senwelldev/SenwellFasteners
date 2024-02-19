@@ -62,7 +62,7 @@ const NewsForm = () => {
 
                         <div className="mb-3 col-12">
                           <label htmlFor="name" className="form-label">
-                            Name
+                            Name*
                           </label>
                           <input
                             type="text"
@@ -83,7 +83,7 @@ const NewsForm = () => {
 
                         <div className="mb-3 col-12">
                           <label htmlFor="email" className="form-label">
-                            Email
+                            Email*
                           </label>
                           <input
                             type="email"
@@ -108,7 +108,7 @@ const NewsForm = () => {
 
                         <div className=" col-12 ">
                           <label htmlFor="phone" className="form-label">
-                            Phone Number
+                            Phone Number*
                           </label>
                           <Controller
                             render={({ field }) => (
@@ -117,7 +117,7 @@ const NewsForm = () => {
                                   name: field.name,
                                   required: true,
                                 }}
-                                country={"us"} // Set default country (you can change it based on your needs)
+                                country={"in"} // Set default country (you can change it based on your needs)
                                 value={field.value}
                                 onChange={(value) => field.onChange(value)}
                               />

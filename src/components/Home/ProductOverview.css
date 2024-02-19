@@ -1,7 +1,7 @@
 /* css for company heading  */
 .company-heading h1 {
   font-family: var(--font);
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 .company-heading p{
   font-weight: 400;
@@ -41,11 +41,15 @@
 }
 
 .products-variety {
- 
   color: white;
-
-  
 }
+
+.productOverviewCard:hover{
+  border-radius: 7px;
+  box-shadow: .1px 2px 1px rgba(146, 145, 145, 0.363);
+  cursor: pointer;
+}
+
 .products-variety h1 {
   font-size: 4.5rem;
 
@@ -77,5 +81,15 @@
     height: 40vh;
     background-attachment: scroll !important;
    
+  }
+
+  .goalDiv{
+    height: auto;
+  }
+  
+}
+@media (min-width:760px) and (max-width:1000px){
+  .product-overview-section-2{
+    background-size:cover;
   }
 }

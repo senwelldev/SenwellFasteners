@@ -29,7 +29,7 @@ const Home = () => {
   ]
   return (
     <>
-      <ImageSlider></ImageSlider>
+      <ImageSlider/>
       <ProductOverview />
       <ProductSlider />
       {

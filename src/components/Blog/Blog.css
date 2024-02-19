@@ -31,7 +31,7 @@
   min-height: 100% !important;
 
   margin: 0px 20px 0px 20px !important;
-  transition: box-shadow 0.3s ease-out;
+  /* transition: box-shadow 0.3s ease-out; */
   border-radius: 10px;
   padding: 1.7%;
   border: 1px solid rgb(184, 184, 184) !important;
@@ -41,17 +41,17 @@
   border-radius: 10px;
 }
 
-.blogsCard:hover {
+/* .blogsCard:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-}
+} */
 
-.blogsCard .card-title {
+.blogsCard .blogCard-title {
   margin-top: 15px;
   color: rgb(7, 34, 103);
   cursor: pointer;
 }
 
-.blogsCard .card-title:hover {
+.blogsCard .blogCard-title:hover {
   color: rgb(0, 194, 244);
 }
 
@@ -88,7 +88,16 @@
 @media screen and (max-width: 768px) {
   .Blogs1Body {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
+
+  .Blogs1Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .blogscardsContainer {
     flex-direction: column;
     align-items: center;
@@ -110,5 +119,10 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .blogscardsContainer {
     padding: 2% 2% 10% 2%;
+  }
+  .Blogs1Heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
